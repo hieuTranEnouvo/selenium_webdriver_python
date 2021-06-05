@@ -1,0 +1,8 @@
+.iml
+.idea
+features/__pycache__/*
+node_modules
+__pycache__/*
+.venv/*
+geckodriver.log
+behave2cucumber.log

@@ -1,0 +1,222 @@
+[
+    {
+        "keyword": "Feature",
+        "name": "Login",
+        "tags": [],
+        "elements": [
+            {
+                "type": "scenario",
+                "keyword": "Scenario Outline",
+                "name": "Log in to Gmail -- @1.1 ",
+                "tags": [
+                    {
+                        "name": "@login",
+                        "line": 21
+                    }
+                ],
+                "steps": [
+                    {
+                        "keyword": "When",
+                        "name": "I click on add on",
+                        "match": {
+                            "location": "features/steps/loginSteps.py:15",
+                            "arguments": []
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 0.3178589344024658
+                        },
+                        "line": 6
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "I click on Actable AI",
+                        "match": {
+                            "location": "features/steps/loginSteps.py:19",
+                            "arguments": []
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 0.2637450695037842
+                        },
+                        "line": 7
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "I click on Regression",
+                        "match": {
+                            "location": "features/steps/loginSteps.py:23",
+                            "arguments": []
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 0.2844069004058838
+                        },
+                        "line": 8
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "I switch to iframe",
+                        "match": {
+                            "location": "features/steps/loginSteps.py:27",
+                            "arguments": []
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 2.696700096130371
+                        },
+                        "line": 9
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "I select to predicted target and valuePredictedTarget \"rental_price\"",
+                        "match": {
+                            "location": "features/steps/loginSteps.py:31",
+                            "arguments": [
+                                {
+                                    "value": "rental_price",
+                                    "name": "valuePredictedTarget"
+                                }
+                            ]
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 2.815272092819214
+                        },
+                        "line": 10
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "I click on select rendered",
+                        "match": {
+                            "location": "features/steps/loginSteps.py:35",
+                            "arguments": []
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 0.2598292827606201
+                        },
+                        "line": 11
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "I click on select all value",
+                        "match": {
+                            "location": "features/steps/loginSteps.py:39",
+                            "arguments": []
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 0.732666015625
+                        },
+                        "line": 12
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "I select to predicted target and valuePredictedTarget \"rental_price\"",
+                        "match": {
+                            "location": "features/steps/loginSteps.py:31",
+                            "arguments": [
+                                {
+                                    "value": "rental_price",
+                                    "name": "valuePredictedTarget"
+                                }
+                            ]
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 0.25341367721557617
+                        },
+                        "line": 13
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "I click on run button",
+                        "match": {
+                            "location": "features/steps/loginSteps.py:43",
+                            "arguments": []
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 0.23443889617919922
+                        },
+                        "line": 14
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "I quit iframe",
+                        "match": {
+                            "location": "features/steps/loginSteps.py:47",
+                            "arguments": []
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 0.005931854248046875
+                        },
+                        "line": 15
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "I check to exist regression validation sheet",
+                        "match": {
+                            "location": "features/steps/loginSteps.py:51",
+                            "arguments": []
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 0.6671760082244873
+                        },
+                        "line": 16
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "I right click on regression validation sheet to delete",
+                        "match": {
+                            "location": "features/steps/loginSteps.py:55",
+                            "arguments": []
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 0.3673899173736572
+                        },
+                        "line": 17
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "I click on delete button",
+                        "match": {
+                            "location": "features/steps/loginSteps.py:59",
+                            "arguments": []
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 0.29386234283447266
+                        },
+                        "line": 18
+                    },
+                    {
+                        "keyword": "Then",
+                        "name": "I click on OK button to confirm",
+                        "match": {
+                            "location": "features/steps/loginSteps.py:63",
+                            "arguments": []
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 0.6604902744293213
+                        },
+                        "line": 19
+                    }
+                ],
+                "line": 22,
+                "uri": "features/feature/login.feature",
+                "description": "",
+                "id": 1
+            }
+        ],
+        "line": 1,
+        "uri": "features/feature/login.feature",
+        "description": "",
+        "id": 0
+    }
+]

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "scripts": {
+    "test": "behave -f json -o report.json && yarn convertAndGenerate",
+    "convertAndGenerate": "python3 -m behave2cucumber -i report.json -o reports/cucumber_report.json && yarn generalReport",
+    "generalReport": "node generate.js"
+  }
+}
